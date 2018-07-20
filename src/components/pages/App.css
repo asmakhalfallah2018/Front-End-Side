@@ -1,0 +1,72 @@
+.But {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    background-color:#E9967A;
+    color: white;
+    }
+
+ 
+   
+    .loader {
+        border: 10px solid #f3f3f3; /* Light grey */
+        border-top: 10px solid #3498db; /* Blue */
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        animation: spin 2s linear infinite;
+    }
+    
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+ div#body {
+        margin-top:'5em';
+        background-image: 'url("https://i.pinimg.com/564x/e9/d9/6f/e9d96fe75300aa522e6edf47438f76fe.jpg")';
+    
+        text-align: center ;
+        border-width:2px;
+ border-style:dashed;
+ border-color:ThreedShadow;
+        background-color: #F5F5F5;
+      }
+   
+    div#contenu {
+        width:1200px;
+        height:400px;
+        margin-right: '15em';
+        left: 50%;
+        text-align: center;
+        background-color:#F5F5F5;
+        border-style:solid;
+     border-color:ThreedShadow;
+        }
+    
+        div#centre {
+            margin-top:'5em';
+            width:1100px;
+        height:400px;
+        
+            text-align: center ;
+            border-width:2px;
+     
+            background-color: #F5F5F5;
+            }
+            .btn-group .button {
+                background-color: #4CAF50; /* Green */
+                border: 1px solid green;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                cursor: pointer;
+                float: left;
+            }
+            .btn-group .button:not(:last-child) {
+                border-right: none; /* Prevent double borders */
+            }
+            .btn-group .button:hover {
+                background-color: #3e8e41;
+            }
